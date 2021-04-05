@@ -1,0 +1,204 @@
+@media screen and (max-width: 320px) {
+    
+    .main-container {
+        width: 320px;
+        height: auto;
+    }
+
+/*navbar*/
+
+    .navbar > .head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3% 5% 5% 5%;
+    }
+    
+    .navbar > .menu-list {
+        display: none;
+        padding-left: 5%;
+        background-color: #0000EC;
+        width: 320px;
+        height: 140px;
+        line-height: 35px;
+        color: white;
+    }
+
+/*information-container*/
+
+    .information-container {
+        margin-top: 5%;
+    }
+
+    .information-desktop {
+        display: none;
+    }
+
+    .title {
+        font-size: 1em;
+        padding-left: 5%;
+    }
+
+    .button {
+        font-size: 1em;
+        width: 288px;
+        height: 48px;
+        margin: 5%;
+    }
+
+/*polygon and spotify*/
+
+    .polygon {
+        padding-bottom: 45%;
+        clip-path: polygon(0 4%, 100% 0, 100% 96%, 0 100%);
+    } 
+
+    .polygon > h1 {
+        padding: 17% 0 4% 5%;
+    }
+    
+    .spotify {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .spotify-item  {
+        padding: 4px 8px 4px 8px;  
+    }
+
+    .spotify-item > iframe {
+        width: 100%;
+        height: 122px;  
+        border-radius: 5px;
+    }
+
+/*history container*/
+
+    .history-container {
+        padding-bottom: 15%;
+    }
+
+    .phone {
+        top: -90px;
+        height: 410px;
+    }
+
+    .phone > img {
+        width: 360px;
+        height: 519px;
+    }
+
+    .know-more {
+        padding: 0 5% 0 5%;
+    }
+
+    .know-more > h1 {
+        padding: 10% 0 5% 0;
+        font-size: 2rem;
+        width: 50%;
+    }
+
+    .know-more > p {
+        font-size: 0.86rem;
+    }
+
+/*stellar-guests*/
+
+    .stellar-guests > h1 {
+        padding-left: 5%;
+        width: 70%;
+    }
+
+    .images > .img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .images > .img > img {
+        width: 320px;
+        height: 243px;
+    }
+
+/*some-topics*/
+
+    .some-topics > h1 {
+        padding: 15% 0 0% 5%;
+        width: 80%;
+        font-size: 2rem;
+    }
+
+    .some-topics > .images-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .images-text > .img-item {
+        margin-bottom: 20%;
+        margin-top: 10%;
+        width: 210px;
+        height: 104px;
+    }
+
+    .images-text > .img-item > img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .images-text > .img-item > span {
+        font-size: 1.2rem;
+    }
+
+/*Polygon 2*/
+
+    .polygon2 {
+        clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .polygon2 > h1 {
+        width: 80%;
+        text-align: center;
+    }
+
+/*Footer*/
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        width: 320px;  
+        margin: 5% 17.5% 7% 17.5%;
+
+    }
+
+    .footer > .text {
+        font-size: 0.8rem;
+        padding-bottom: 5%;
+    }
+
+    .footer > .iconos > a {
+        padding-right: 9%; 
+    }
+
+}
+
+.custom-checkbox:checked + div + div {
+    visibility: visible;
+    display: block;
+} 
+
+.head > .x {
+    display: none;
+}
+
+.custom-checkbox:checked + .head > .x {
+    display: block;
+} 
+
+.custom-checkbox:checked + .head > .label-burger {
+    display: none;
+}
+
+
+
