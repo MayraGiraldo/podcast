@@ -1,8 +1,9 @@
-@media screen and (min-width: 769px) and (max-width: 1200px) {
+@media screen and (min-width: 769px) {
     
     .main-container {
-        max-width: 1200px;
+        
         height: auto;
+        margin: 0 auto;
     }
 
 /*Navbar*/
@@ -62,22 +63,27 @@
     }  
     
     .polygon > h1 {
-        padding: 10% 0 0 15%;
+        padding: 12% 0 2% 15%;
     }
-    
-    .spotify {
-        max-width: 1200px;
+
+    .polygon > .spotify {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        padding: 0 5% 0 5%;
     }
-
-    .spotify-item > iframe {
-        width: 330px;
-        height: 80px;
-        border-radius: 4px;  
-        margin: 20px;  
+    
+    .polygon > .spotify > .spotify-item {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+        
+    .spotify > .spotify-item > iframe {
+        width: 100%;
+        margin: 0 5% 8% 5%; 
     }
 
 /*history container*/

@@ -9,7 +9,7 @@ body {
 }
 
 .main-container {
-    max-width: 1200px;
+   
     height: auto;
     background-color: white;
 }
@@ -129,6 +129,12 @@ body {
     font-family: IBM Plex Sans;
     color: white;
     font-weight: 380;
+}
+
+.spotify > .spotify-item > iframe {
+    min-width: 298px;
+    min-height: 157px;
+    border: none;
 }
 
 /*history container*/
