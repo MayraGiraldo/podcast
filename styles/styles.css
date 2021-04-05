@@ -31,7 +31,6 @@ body {
     font-weight: 200;
     list-style: none;
     cursor: pointer;
-    transition: all .2s ease;
 }
 
 .custom-checkbox {

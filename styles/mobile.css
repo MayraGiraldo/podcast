@@ -24,6 +24,10 @@
         color: white;
     }
 
+    .menu-list > ul >li > a {
+        color: white;
+    }
+
 /*information-container*/
 
     .information-container {
