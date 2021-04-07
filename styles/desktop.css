@@ -195,24 +195,29 @@
 
     .footer {
         max-width: 1200px;
+        min-width: 769px;
+        width: 100%;
         display: flex;
         flex-direction: row; 
-        padding: 2% 0 2% 0;
+        justify-content: space-between;
+        padding: 2% 0% 2% 0%;
     }
 
     .footer > .text {
         font-size: 0.6rem;
-        padding-right: 45%;
-        padding-left: 8%;
+        padding-left: 7%;
+        width: 50%;   
     }
 
     .footer > .iconos {
         display: flex;
         flex-direction: row;
+        width: 50%;
+        padding-left: 22%;
     }
 
     .footer > .iconos > a {
-        padding-right: 26%; 
+        padding-left: 8%; 
     }
 
 }
