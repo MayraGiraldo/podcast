@@ -22,6 +22,9 @@
         height: 140px;
         line-height: 35px;
         color: white;
+        /*transition: all .4s ease;*/
+        position: fixed;
+        /*transform: translate(100%);*/
     }
 
     .menu-list > ul >li > a {
@@ -178,22 +181,47 @@
 
 }
 
+/*the checked (Navbar)*/
+
 .custom-checkbox:checked + div + div {
     visibility: visible;
     display: block;
+    border: 3px solid blue;
+    /*transform: translate(0%);*/
 } 
 
-.head > .x {
+.custom-checkbox:checked + .head > .label-burger > .container-burger > .line-med {
+    opacity: 0;
+}
+
+.custom-checkbox:checked + .head > .label-burger > .container-burger > .line-top {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+} 
+
+.custom-checkbox:checked + .head > .label-burger > .container-burger > .line-low {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+
+
+/*Hacer caso omiso a los siguientes comentarios*/
+/*--------------------------------------------------------------------------*/
+/*Borrador personal: otra alternativa:*/
+
+/*.head > .x {
     display: none;
 }
 
 .custom-checkbox:checked + .head > .x {
     display: block;
-} 
+} */
 
-.custom-checkbox:checked + .head > .label-burger {
+/*.custom-checkbox:checked + .head > .label-burger {
     display: none;
-}
+}*/
 
+/*--------------------------------------------------------------------------*/
 
 
