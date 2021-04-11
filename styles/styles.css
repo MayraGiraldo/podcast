@@ -20,16 +20,16 @@ body {
     height: 36px;
 }
 
-.menu-list > ul >li > a:hover {
-    color: #00F3BB;
-}
-
 .menu-list > ul {
     font-family: IBM Plex Mono;
     font-size: 0.8rem;
     font-weight: 200;
     list-style: none;
     cursor: pointer;
+}
+
+.menu-list > ul >li > a:hover {
+    color: #00F3BB;
 }
 
 .custom-checkbox {

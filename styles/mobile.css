@@ -15,15 +15,15 @@
     }
     
     .navbar > .menu-list {
-        display: none;
         padding-left: 5%;
         background-color: #0000EC;
         width: 320px;
         height: 140px;
         line-height: 35px;
         color: white;
-        /*transition: all .4s ease;*/
-        /*transform: translate(100%);*/
+        transition: all 0.4s ease;
+        transform: translate(100%);
+        position: absolute;
     }
 
     .menu-list > ul >li > a {
@@ -184,10 +184,7 @@
 /*(Por fuera de la @media) - checked the Navbar*/
 
 .custom-checkbox:checked + div + div {
-    visibility: visible;
-    display: block;
-    border: 3px solid blue;
-    /*transform: translate(0%);*/
+    transform: translate(0%);
 } 
 
 .custom-checkbox:checked + .head > .label-burger > .container-burger > .line-med {
