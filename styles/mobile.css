@@ -5,7 +5,7 @@
         height: auto;
     }
 
-/*navbar*/
+/*---------------------Navbar*-------------------*/
 
     .navbar > .head {
         display: flex;
@@ -23,7 +23,6 @@
         line-height: 35px;
         color: white;
         /*transition: all .4s ease;*/
-        position: fixed;
         /*transform: translate(100%);*/
     }
 
@@ -31,7 +30,7 @@
         color: white;
     }
 
-/*information-container*/
+/*--------------information-container------------*/
 
     .information-container {
         margin-top: 5%;
@@ -53,7 +52,7 @@
         margin: 5%;
     }
 
-/*polygon and spotify*/
+/*--------------polygon and spotify-------------*/
 
     .polygon {
         padding-bottom: 45%;
@@ -71,7 +70,7 @@
         padding: 4px 8px 4px 8px;
     }
 
-/*history container*/
+/*---------------history container-------------*/
 
     .history-container {
         padding-bottom: 15%;
@@ -101,7 +100,7 @@
         font-size: 0.86rem;
     }
 
-/*stellar-guests*/
+/*----------------stellar-guests---------------*/
 
     .stellar-guests > h1 {
         padding-left: 5%;
@@ -118,7 +117,7 @@
         height: 243px;
     }
 
-/*some-topics*/
+/*------------------some-topics----------------*/
 
     .some-topics > h1 {
         padding: 15% 0 0% 5%;
@@ -149,7 +148,8 @@
         font-size: 1.2rem;
     }
 
-/*Polygon 2*/
+/*-------------------Polygon 2-----------------*/
+
 
     .polygon2 {
         clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
@@ -160,7 +160,7 @@
         text-align: center;
     }
 
-/*Footer*/
+/*---------------------Footer-------------------*/
 
     .footer {
         display: flex;
@@ -181,7 +181,7 @@
 
 }
 
-/*the checked (Navbar)*/
+/*(Por fuera de la @media) - checked the Navbar*/
 
 .custom-checkbox:checked + div + div {
     visibility: visible;
