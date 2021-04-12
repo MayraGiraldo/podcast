@@ -83,6 +83,7 @@
     .spotify > .spotify-item > iframe {
         width: 100%;
         margin: 0 5% 8% 5%; 
+        min-width: 298px;
     }
 
 /*---------------history container-------------*/

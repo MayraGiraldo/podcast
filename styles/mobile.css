@@ -1,7 +1,7 @@
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
     
     .main-container {
-        width: 320px;
+        width: 400px;
         height: auto;
     }
 
@@ -17,7 +17,7 @@
     .navbar > .menu-list {
         padding-left: 5%;
         background-color: #0000EC;
-        width: 320px;
+        width: 400px;
         height: 140px;
         line-height: 35px;
         color: white;
@@ -46,16 +46,16 @@
     }
 
     .button {
-        font-size: 1em;
-        width: 288px;
-        height: 48px;
+        font-size: 1.1em;
+        width: 90%;
+        height: 55px;
         margin: 5%;
     }
 
 /*--------------polygon and spotify-------------*/
 
     .polygon {
-        padding-bottom: 45%;
+        padding-bottom: 35%;
         clip-path: polygon(0 4%, 100% 0, 100% 96%, 0 100%);
     } 
 
@@ -68,6 +68,10 @@
         flex-direction: column;
         align-items: center;
         padding: 4px 8px 4px 8px;
+    }
+
+    .spotify > .spotify-item > iframe {
+        min-width: 365px;
     }
 
 /*---------------history container-------------*/
@@ -92,12 +96,12 @@
 
     .know-more > h1 {
         padding: 10% 0 5% 0;
-        font-size: 2rem;
+        font-size: 2.3rem;
         width: 50%;
     }
 
     .know-more > p {
-        font-size: 0.86rem;
+        font-size: 1.1rem;
     }
 
 /*----------------stellar-guests---------------*/
@@ -105,6 +109,8 @@
     .stellar-guests > h1 {
         padding-left: 5%;
         width: 70%;
+        font-size: 2.3rem;
+        padding-bottom: 4%;
     }
 
     .images > .img {
@@ -113,8 +119,8 @@
     }
 
     .images > .img > img {
-        width: 320px;
-        height: 243px;
+        width: 400px;
+        height: 255px;
     }
 
 /*------------------some-topics----------------*/
@@ -171,12 +177,12 @@
     }
 
     .footer > .text {
-        font-size: 0.8rem;
+        font-size: 1rem;
         padding-bottom: 5%;
     }
 
     .footer > .iconos > a {
-        padding-right: 9%; 
+        padding-right: 13%; 
     }
 
 }
