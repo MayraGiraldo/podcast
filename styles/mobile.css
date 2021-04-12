@@ -210,7 +210,6 @@
 }
 
 
-
 /*Hacer caso omiso a los siguientes comentarios*/
 /*--------------------------------------------------------------------------*/
 /*Borrador personal: otra alternativa:*/
@@ -221,9 +220,9 @@
 
 .custom-checkbox:checked + .head > .x {
     display: block;
-} */
+} 
 
-/*.custom-checkbox:checked + .head > .label-burger {
+.custom-checkbox:checked + .head > .label-burger {
     display: none;
 }*/
 

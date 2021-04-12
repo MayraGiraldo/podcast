@@ -132,8 +132,8 @@ body {
 }
 
 .spotify > .spotify-item > iframe {
-    min-height: 157px;
     border: none;
+    height: 121px;
 }
 
 /*---------------history container-------------*/
