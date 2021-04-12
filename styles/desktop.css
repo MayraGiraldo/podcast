@@ -70,7 +70,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        padding: 0 5% 0 5%;
+        padding: 0 5% 0% 5%;
     }
     
     .polygon > .spotify > .spotify-item {
@@ -82,7 +82,7 @@
         
     .spotify > .spotify-item > iframe {
         width: 100%;
-        margin: 0 5% 0% 5%;
+        margin: 0% 5% 8% 5%;
         min-width: 298px;
     }
 
