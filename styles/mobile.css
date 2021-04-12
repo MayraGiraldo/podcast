@@ -17,9 +17,7 @@
     .navbar > .menu-list {
         padding-left: 5%;
         background-color: #0000EC;
-        max-width: 400px;
-        min-width: 100px;
-        width: 100%;
+        width: 400px;
         height: 140px;
         line-height: 35px;
         color: white;
