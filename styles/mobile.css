@@ -24,6 +24,7 @@
         transition: all 0.4s ease;
         transform: translate(100%);
         position: absolute;
+        visibility: hidden;
     }
 
     .menu-list > ul >li > a {
