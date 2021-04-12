@@ -192,6 +192,7 @@
 
 .custom-checkbox:checked + div + div {
     transform: translate(0%);
+    visibility: visible;
 } 
 
 .custom-checkbox:checked + .head > .label-burger > .container-burger > .line-med {
